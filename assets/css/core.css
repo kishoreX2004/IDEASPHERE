@@ -1,0 +1,224 @@
+
+
+
+.desnav{
+    background-color: #8000ff;
+}
+
+.nav-link{
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    color: white;
+    text-decoration: none;
+    background: none;
+    border: 0;
+    
+    margin:auto;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+    
+    font-family: 'Alegreya Sans SC';
+    font-weight: bold;
+
+}
+
+.txtcol{
+    font-family: 'Alegreya Sans SC' !important;
+    font-weight: bold !important;
+    color:white !important;
+}
+
+.navbar-toggler {
+    padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+    font-size: var(--bs-navbar-toggler-font-size);
+    line-height: 1;
+    color: white;
+    background-color: transparent;
+    border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
+    border-radius: var(--bs-navbar-toggler-border-radius);
+    transition: var(--bs-navbar-toggler-transition);
+}
+
+.nav-link:hover{
+    color:rgba(255, 251, 0, 0.801) !important;
+    border-top-style: none !important;
+    border-bottom-style: solid !important;
+    border-right-style: none !important;
+    border-left-style: none !important;
+    border-width: 0.15rem !important;
+    border-color: yellow !important;
+    
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+    transition: all 0.3s ease-in-out;
+}    
+
+a.nav-link.active{
+    color:rgba(255, 251, 0, 0.801) !important;
+    border-top-style: none !important;
+    border-bottom-style: solid !important;
+    border-right-style: none !important;
+    border-left-style: none !important;
+    border-width: 0.15rem !important;
+    border-color: yellow !important;
+    
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+}
+
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+    text-align: center;
+}
+
+/* Header Section */
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 50px 0;
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 0 0 10px;
+}
+
+header p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.cta-button {
+    background-color: #ffffff;
+    color: #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1em;
+    margin-top: 20px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+    color: #ffffff;
+}
+
+/* Feature Section */
+#features {
+    padding: 50px 0;
+    background-color: #ffffff;
+}
+
+#features h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#features p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+.feature-box {
+    background-color: #f8f9fa;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Team Section */
+#team {
+    padding: 50px 0;
+    background-color: #e9ecef;
+}
+
+#team h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#team p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+.team-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.team-box {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1 1 48%; /* 48% width for full screen mode to ensure two boxes fit into a single row */
+    max-width: 48%;
+    text-align: center;
+}
+
+.team-box img {
+    border-radius: 50%;
+    margin-bottom: 15px;
+    max-width: 100px;
+    height: auto;
+}
+
+.team-box h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.team-box p {
+    font-size: 1em;
+    color: #555;
+}
+
+/* Responsive Adjustments */
+@media screen and (max-width: 768px) {
+    .team-box {
+        flex: 1 1 100%; /* 100% width for mobile view */
+        max-width: 100%;
+    }
+}
+
+/* Footer Section */
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer a {
+    color: #f8f9fa;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
